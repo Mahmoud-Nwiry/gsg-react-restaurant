@@ -1,0 +1,39 @@
+.review_card {
+    padding: 34px 64px 64px;
+    background: rgba(16, 20, 24, 0.7);
+    width: 732px;
+    height: 385px;
+}
+
+.review_card .info {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.review_card .info img {
+    border-radius: 50%;
+}
+
+.review_card .info .name {
+    color: #fffffc;
+}
+
+.review_card .info .name h4 {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-bottom: 5px;
+}
+
+.review_card .body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-top: 35px;
+}

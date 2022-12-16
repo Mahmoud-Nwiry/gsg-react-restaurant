@@ -1,0 +1,30 @@
+.ingredients {
+    padding: 100px 0;
+}
+
+.ingredients .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.ingredients .text {
+    width: 380px;
+}
+
+.ingredients .text h2 {
+    margin-bottom: 5px;
+}
+.ingredients .text .under_title {
+    margin-bottom: 35px;
+}
+.ingredients .text .description {
+    width: 380px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-bottom: 50px;
+}

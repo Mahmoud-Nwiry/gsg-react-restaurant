@@ -1,0 +1,44 @@
+.menu_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 490px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+
+.menu_card img {
+    max-width: 100%;
+}
+
+.menu_card .text {
+    margin-right: 10px;
+}
+
+.menu_card .text h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.menu_card .text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_card .line {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #FFCE6D;
+}
+
+.menu_card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #FFCE6D;
+}

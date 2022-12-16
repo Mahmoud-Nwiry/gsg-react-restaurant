@@ -1,0 +1,45 @@
+.subscribe {
+    padding: 20px 0;
+}
+
+.subscribe .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe .content .text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.subscribe .content .text p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+
+.subscribe .content form {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.subscribe .content form input {
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid #FFFFCC;
+    padding: 13px 34px;
+    color: #FFFFCC;
+}
+
+.subscribe .content form input::placeholder {
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}

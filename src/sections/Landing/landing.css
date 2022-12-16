@@ -1,0 +1,43 @@
+.landing {
+    min-height: 100vh;
+    background-image: url('../../assets/landing_bg.svg');
+    position: relative;
+    padding-top: 130px;
+}
+
+.landing *{
+    position: relative;
+    z-index: 1;
+}
+
+.landing .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #10141800, #101418ff);
+    z-index: 0;
+}
+
+.greeting {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.greeting h1 {
+    max-width: 355px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFCCC;
+    margin: 0 auto;
+}
+
+.greeting p {
+    max-width: 537px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;  
+    margin: 18px auto 45px;  
+    color: #FFFFFF;
+}

@@ -1,0 +1,119 @@
+.footer_links {
+    padding: 80px 0;
+    background: #101418B2
+}
+
+.footer_links .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_links .content article {
+    flex: 1;
+}
+
+.footer_links .content .info {
+    position: relative;
+}
+
+.footer_links .content .info .logo {
+    position: absolute;
+    left: -38px;
+    top: -20px;
+}
+
+.footer_links .content .info h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFCCC;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.footer_links .content .info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.3%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-bottom: 20px;
+}
+
+.footer_links .content .info .social {
+    display: flex;
+    gap: 14px;
+}
+
+.footer_links .content .info .social li {
+    width: 32px;
+    height: 32px;
+    background: #333539;
+    list-style: none;
+    
+}
+
+.footer_links .content .info .social a {
+    display: block;
+    width: 32px;
+    height: 32px;border-radius: 50%;
+    background: rgba(255, 255, 255, .1);
+    position: relative;
+}
+
+.footer_links .content .info .social img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer_links .content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-bottom: 25px;
+}
+
+.footer_links .content .links ul {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 168.8%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    padding: 0 15px;
+}
+
+.footer_links .content .links ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer_links .content .contact ul li {
+    display: flex;
+    align-items: center;
+    color: #FFFFFC;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.footer_links .content .contact ul li .image {
+    width: 25px;
+    height: 25px;
+}
+
+.footer_links .content .contact ul li span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.3%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+
+
+
+

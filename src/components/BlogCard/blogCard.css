@@ -1,0 +1,42 @@
+.blog_card {
+    background: #101418B2;
+    max-width: 30%;
+}
+
+.blog_card img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.blog_card .text {
+    padding: 35px 45px;
+}
+
+.blog_card .text h3{
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-bottom: 15px;
+}
+
+.blog_card .text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.3%;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin-bottom: 20px;
+}
+
+.blog_card .text a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.3%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FFCE6D;
+}

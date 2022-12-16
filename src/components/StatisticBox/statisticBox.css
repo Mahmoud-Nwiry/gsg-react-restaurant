@@ -1,0 +1,23 @@
+.statistics_box{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.statistics_box .numbers {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.statistics_box h4 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFCE6D;
+}
+
+.statistics_box p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFC;
+}

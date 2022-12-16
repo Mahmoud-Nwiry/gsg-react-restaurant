@@ -1,0 +1,21 @@
+.services {
+    background: rgba(16, 20, 24, 0.7);
+    padding-top: 26px;
+    padding-bottom: 100px;
+}
+
+.services h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.services .under_title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.services .services_box {
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    justify-content: space-around;
+}

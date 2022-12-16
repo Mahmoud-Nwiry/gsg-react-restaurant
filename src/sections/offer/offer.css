@@ -1,0 +1,23 @@
+.offer {
+    background: #101418B2;
+}
+
+.offer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer .content .text {
+    text-align: center;
+    width: 466px;
+}
+
+.offer .content .text h2 {
+    color: #fffffc;
+    margin-bottom: 30px;
+}
+.offer .content .text .under_title {
+    color: #FFCE6D;
+    margin-bottom: 22px;
+}
