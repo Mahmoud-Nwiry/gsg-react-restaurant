@@ -1,6 +1,6 @@
 import React from 'react'
 import './statistics.css'
-import Container from '../../components/container'
+import ContainerLarge from '../../components/ContainerLarge'
 import StatisticBox from '../../components/StatisticBox'
 
 import Desh from '../../assets/staDesh.svg'
@@ -31,13 +31,13 @@ const data = [
 const Statistics = () => {
   return (
     <section className='statistics'>
-        <Container>
+        <ContainerLarge>
             <div className="content">
                 {
                     data.map(item => <StatisticBox key={item.id} icon={item.icon} number={item.number} text={item.text} />)
                 }
             </div>
-        </Container>
+        </ContainerLarge>
     </section>
   )
 }
